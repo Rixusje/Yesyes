@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SUCKITFLORIS</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+		<header>
+			<nav>
+				<h1> Welcome to a page dedicated to Floris Wildeboer Schut </h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="information.html">Information</a></li>
+					<li><a href="visuals.html">Visuals</a></li>
+					<li><a href="fun.html">Fun</a></li>
+				</ul>	
+			</nav>
+		</header>
+		<section class="message-board">
+			<div class="title">
+			  <h2>
+				Leave a message
+			  </h2>
+			</div>
+		  
+			<form onsubmit="showInput()" id="theForm">
+			  <textarea class="message" type="text" id="userInput"></textarea><br/>
+			  <input type="submit" value="Submit">
+			</form>
+		  
+		  
+			<div class="display-area">
+			  Existing comment:
+			</div>
+			<p><span id="display"></span></p>
+		  </section>
+		<footer></footer>
+		<script src="js/events.js"></script>
+	</body>
+</html>

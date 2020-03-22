@@ -1,0 +1,108 @@
+body {
+	margin:0;
+	background-color: rgb(182, 182, 182);
+	text-align:center;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+header h1 {
+	color: black;
+	padding:20px;
+	margin:0px;
+}
+header {
+	background-image: url("images/1.jpeg");
+	background-size:100%;
+	background-position:center;
+	height: 200px;
+	background-color: #999;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
+/*  
+header .logo a {
+	background-image:;
+	background-size:;
+	top:;
+	position: relative;
+	color:red;
+	display: inline-block;
+	height: 80px;
+	text-indent: -999999px;
+	width:300px;
+
+}
+ */
+nav ul {
+	font-size:30;
+	margin:10;
+	padding: 10px 0 0 0;
+}
+ul li {
+	font-size:30;
+	color: white;
+	display: inline-block;
+	padding: 15px 15px;
+	margin: 0;
+}
+nav ul li a {
+	color: black;
+}
+
+div.row{
+	display: inline-block;
+	padding: 0px;
+	margin: 0;
+	
+}
+div.col {
+	background: #666;
+	margin: auto;
+	border-radius: 5px;
+	color:black;
+}
+div input {
+	margin:auto;
+}
+
+footer {
+	clear: both;
+	font-size: 15px;
+	background-color: #999;
+	height: 200px;
+}
+figure ul li {
+	width:100%;
+	list-style-type: none;
+	display: inline;
+	padding: 0 0;
+	margin: 0;
+}
+li img{
+	width:49%;
+	border-radius: 10%;
+	box-shadow: gray 0 0 10px;
+	border:1px solid white;
+	padding: 0 0;
+	margin: 0;
+}
+li video {
+	width:40%;
+	border-radius: 10%;
+	box-shadow: gray 0 0 10px;
+	border:1px solid white;
+	padding: 0 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 400px){
+	/* new rules for phone */
+}
